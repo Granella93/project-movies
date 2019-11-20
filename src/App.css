@@ -1,5 +1,15 @@
+body{
+  background:rgb(129, 129, 128);
+}
+
 .App {
   text-align: center;
+}
+
+h1{
+  color:white;
+  font-size: 50px;
+  text-shadow: 0 0 10px grey;
 }
 
 .App-logo {

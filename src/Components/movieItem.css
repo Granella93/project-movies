@@ -1,0 +1,29 @@
+article{
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background: #333333;
+    color: #dddddd;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+
+
+}
+
+article:hover{
+    background: #3d3b3b;
+    color:rgb(255, 255, 255);
+    animation: pop 10s linear 5;
+    animation-name:pop;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@keyframes pop{
+    100% , 5% {transform: scale(1.05);}
+}

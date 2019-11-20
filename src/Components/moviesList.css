@@ -1,0 +1,29 @@
+
+
+main{
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    margin: 50px auto;
+    grid-gap: 20px;
+}
+
+div{
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+button{
+    padding: 10px 10px;
+    font-size: 20px;
+    width: auto;
+    margin: 0.5em;
+    background: #333333;
+    color: #dddddd;
+}
